@@ -33,7 +33,7 @@ const FeaturedProducts = () => {
                 />
 
                 <div class="relative pt-3 bg-white">
-                  <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                  <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4 font-bold">
                     The Ohio Bar - Cerakote
                   </h3>
 
@@ -42,7 +42,7 @@ const FeaturedProducts = () => {
 
                     <span class="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      $24.00 GBP{" "}
                     </span>
                   </p>
                 </div>
