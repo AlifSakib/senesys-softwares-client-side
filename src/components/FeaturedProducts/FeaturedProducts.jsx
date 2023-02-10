@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
             <h3 className="font-homemade_apple text-secoundary font-bold">
               Whats New
             </h3>
-            <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">
+            <h2 class="text-5xl font-extrabold text-gray-900  ">
               Shop The Latest
             </h2>
 
@@ -130,6 +130,17 @@ const FeaturedProducts = () => {
           </ul>
         </div>
       </section>
+      <div className="flex justify-center">
+        <a
+          class="group relative inline-block text-sm font-medium text-secoundary focus:outline-none focus:ring active:text-primary"
+          href="/download"
+        >
+          <span class="absolute inset-0 border border-current"></span>
+          <span class="block border border-current bg-white px-12 py-3 transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1 font-rajdhani font-bold text-xl">
+            View All Products
+          </span>
+        </a>
+      </div>
     </div>
   );
 };
