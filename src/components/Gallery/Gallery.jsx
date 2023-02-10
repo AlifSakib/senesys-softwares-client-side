@@ -9,66 +9,68 @@ const Gallery = () => {
   return (
     <div className="bg-primary">
       <section>
-        <div class="max-w-screen-2xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8  mt-10 font-rajdhani">
-          <header class="text-center">
+        <div className="max-w-screen-2xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8  mt-10 font-rajdhani">
+          <header className="text-center">
             <h2 className="font-homemade_apple text-secoundary text-xl font-bold">
               gallery
             </h2>
-            <h2 class="text-4xl font-extrabold text-[#FBECEB]">INSTAGRAM</h2>
+            <h2 className="text-4xl font-extrabold text-[#FBECEB]">
+              INSTAGRAM
+            </h2>
 
-            <p class="max-w-md mx-auto mt-4 text-gray-500">
+            <p className="max-w-md mx-auto mt-4 text-gray-500">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
               praesentium cumque iure dicta incidunt est ipsam, officia dolor
               fugit natus?
             </p>
           </header>
 
-          <ul class="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-5">
+          <ul className="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-5">
             <li>
-              <a href="#" class="block overflow-hidden group">
+              <a href="#" className="block overflow-hidden group">
                 <img
                   src={photo1}
                   alt=""
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
               </a>
             </li>
 
             <li>
-              <a href="#" class="block overflow-hidden group">
+              <a href="#" className="block overflow-hidden group">
                 <img
                   src={photo2}
                   alt=""
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
               </a>
             </li>
 
             <li>
-              <a href="#" class="block overflow-hidden group">
+              <a href="#" className="block overflow-hidden group">
                 <img
                   src={photo3}
                   alt=""
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
               </a>
             </li>
 
             <li>
-              <a href="#" class="block overflow-hidden group">
+              <a href="#" className="block overflow-hidden group">
                 <img
                   src={photo4}
                   alt=""
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
               </a>
             </li>
             <li>
-              <a href="#" class="block overflow-hidden group">
+              <a href="#" className="block overflow-hidden group">
                 <img
                   src={photo5}
                   alt=""
-                  class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                 />
               </a>
             </li>
