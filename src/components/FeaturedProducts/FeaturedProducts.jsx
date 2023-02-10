@@ -40,9 +40,13 @@ const FeaturedProducts = () => {
                   <p class="mt-2">
                     <span class="sr-only"> Regular Price </span>
 
-                    <span class="tracking-wider text-gray-900">
+                    <span class="tracking-wider text-gray-900 line-through">
                       {" "}
-                      $24.00 GBP{" "}
+                      $440.00 USD{" "}
+                    </span>
+                    <span class="tracking-wider px-2 font-extrabold text-red-600">
+                      {" "}
+                      $240.00 USD{" "}
                     </span>
                   </p>
                 </div>
@@ -58,7 +62,7 @@ const FeaturedProducts = () => {
                 />
 
                 <div class="relative pt-3 bg-white">
-                  <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                  <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4 font-bold">
                     Rogue Adjustable Bench 3.0
                   </h3>
 
@@ -67,7 +71,7 @@ const FeaturedProducts = () => {
 
                     <span class="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      $24.00 USD{" "}
                     </span>
                   </p>
                 </div>
@@ -83,7 +87,7 @@ const FeaturedProducts = () => {
                 />
 
                 <div class="relative pt-3 bg-white">
-                  <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                  <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4 font-bold">
                     Rogue USA Nylon Lifting Belt
                   </h3>
 
@@ -92,7 +96,7 @@ const FeaturedProducts = () => {
 
                     <span class="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      $24.00 USD{" "}
                     </span>
                   </p>
                 </div>
@@ -108,7 +112,7 @@ const FeaturedProducts = () => {
                 />
 
                 <div class="relative pt-3 bg-white">
-                  <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
+                  <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4 font-bold">
                     Rogue HG 2.0 Bumper Plates
                   </h3>
 
@@ -117,7 +121,7 @@ const FeaturedProducts = () => {
 
                     <span class="tracking-wider text-gray-900">
                       {" "}
-                      £24.00 GBP{" "}
+                      $24.00 USD{" "}
                     </span>
                   </p>
                 </div>
