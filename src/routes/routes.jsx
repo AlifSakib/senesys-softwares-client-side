@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Login from "../Account/Login/Login";
 import Register from "../Account/Register/Register";
 import ResetPass from "../Account/ResetPass/ResetPass";
+import UserProfile from "../Account/UserProfile/UserProfile";
 import Home from "../components/Home/Home";
 import Main from "../layout/Main";
 
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "/reset-pass",
         element: <ResetPass />,
+      },
+      {
+        path: "/user-profile",
+        element: <UserProfile />,
       },
     ],
   },
