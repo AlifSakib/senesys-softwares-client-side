@@ -14,10 +14,10 @@ const Footer = () => {
                 LOGO.
               </h1>
             </div>
-            <p className="text-sm leading-none text-white mt-4">
+            <p className="text-sm leading-none text-white mt-4 font-rajdhani">
               Be the first who learns
             </p>
-            <p className="text-sm leading-none text-white mt-4">
+            <p className="text-sm leading-none text-white mt-4 font-rajdhani">
               about our great promotions!
             </p>
 
@@ -98,50 +98,50 @@ const Footer = () => {
             </div>
           </div>
           <div className="sm:ml-0 ml-8">
-            <h2 className="text-base font-semibold leading-4 text-white">
+            <h2 className="text-base font-semibold leading-4 text-white font-rajdhani">
               Company
             </h2>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Blog
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Pricing
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               About Us
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Contact us
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Testimonials
             </p>
           </div>
           <div>
-            <h2 className="text-base font-semibold leading-4 text-white">
+            <h2 className="text-base font-semibold leading-4 text-white font-rajdhani">
               Support
             </h2>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Legal policy
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Status policy
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Privacy policy
             </p>
-            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">
+            <p className="hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer font-rajdhani">
               Terms of service
             </p>
           </div>
           <div className="mt-10 lg:block hidden">
-            <label className="text-xl font-medium leading-5 text-white">
+            <label className="text-xl font-medium leading-5 text-white font-rajdhani">
               Get updates
             </label>
             <div className="relative cursor-pointer flex items-center justify-between border border-gray-800 mt-4">
               <input
                 type="text"
-                className="text-base leading-4 p-4 w-full focus:outline-none text-gray-800 placeholder-gray-800"
+                className="text-base leading-4 p-4 w-full focus:outline-none text-gray-800 placeholder-gray-800 font-rajdhani"
                 placeholder="Enter your email"
               />
               <div className="absolute right-2 ">
@@ -153,13 +153,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-10 lg:hidden">
-          <label className="text-xl font-medium leading-5 text-white">
+          <label className="text-xl font-medium leading-5 text-white font-rajdhani">
             Get updates
           </label>
           <div className="relative flex items-center justify-between border border-gray-800 mt-4">
             <input
               type="text"
-              className="font-rajdhani text-base leading-4 p-4 relative z-0 w-full focus:outline-none text-gray-800 placeholder-gray-800"
+              className=" text-base leading-4 p-4 relative z-0 w-full focus:outline-none text-gray-800 placeholder-gray-800 font-rajdhani"
               placeholder="Enter your email"
             />
             <div className="absolute right-1 ">

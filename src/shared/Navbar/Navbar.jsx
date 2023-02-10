@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [searchInput, setSearchInput] = useState(true);
@@ -111,13 +112,15 @@ const Navbar = () => {
           {/* For large screens */}
           <div className="dark:bg-gray-900 bg-gray-50 px-6 py-4">
             <div className="container mx-auto flex items-center justify-between">
-              <h1
-                className="md:w-2/12 cursor-pointer text-gray-800 dark:text-white font-extrabold font-rajdhani text-4xl"
-                aria-label="the Crib."
-              >
-                LOGO.
-              </h1>
-              <ul className="hidden w-8/12 md:flex items-center justify-center space-x-8 text-lg font-bold">
+              <Link to="/">
+                <h1
+                  className="md:w-2/12 cursor-pointer text-gray-800 dark:text-white font-extrabold font-rajdhani text-4xl"
+                  aria-label="the Crib."
+                >
+                  LOGO.
+                </h1>
+              </Link>
+              <ul className="hidden w-8/12 md:flex items-center  space-x-8 text-lg font-bold">
                 <li>
                   <a
                     href="javascript:void(0)"
@@ -131,7 +134,7 @@ const Navbar = () => {
                     href="javascript:void(0)"
                     className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
-                    Furniture
+                    Shop
                   </a>
                 </li>
                 <li>
@@ -139,7 +142,7 @@ const Navbar = () => {
                     href="javascript:void(0)"
                     className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
-                    Lookbook
+                    About
                   </a>
                 </li>
                 <li>
@@ -147,11 +150,51 @@ const Navbar = () => {
                     href="javascript:void(0)"
                     className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
                   >
-                    Support
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                  >
+                    Feature
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                  >
+                    Contacts
                   </a>
                 </li>
               </ul>
               <div className="md:w-2/12 justify-end flex items-center space-x-4 xl:space-x-8">
+                <div>
+                  <ul className="hidden w-8/12 md:flex items-center  space-x-8 text-lg font-bold">
+                    <Link to="/login">
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                        >
+                          Login
+                        </a>
+                      </li>
+                    </Link>
+                    <Link to="/register">
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          className="dark:text-white text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800 hover:underline"
+                        >
+                          Register
+                        </a>
+                      </li>
+                    </Link>
+                  </ul>
+                </div>
                 <div className="hidden lg:flex items-center">
                   <button
                     onClick={() => setSearchInput(!searchInput)}
@@ -192,7 +235,8 @@ const Navbar = () => {
                   />
                 </div>
                 <div className="hidden lg:flex items-center space-x-4 xl:space-x-8">
-                  <button
+                  <Link
+                    to="/user-profile"
                     aria-label="view favourites"
                     className="text-gray-800 dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
@@ -209,8 +253,8 @@ const Navbar = () => {
                         d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
-                  </button>
-                  <button
+                  </Link>
+                  <butt
                     aria-label="go to cart"
                     className="text-gray-800 dark:hover:text-gray-300 dark:text-white focus:outline-none focus:ring-2 focus:ring-gray-800"
                   >
@@ -244,7 +288,7 @@ const Navbar = () => {
                         strokeLinejoin="round"
                       />
                     </svg>
-                  </button>
+                  </butt>
                 </div>
                 <div className="flex lg:hidden">
                   <button
