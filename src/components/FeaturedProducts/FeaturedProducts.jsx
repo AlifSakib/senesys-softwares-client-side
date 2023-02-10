@@ -44,7 +44,7 @@ const FeaturedProducts = () => {
                       {" "}
                       $440.00 USD{" "}
                     </span>
-                    <span class="tracking-wider px-2 font-extrabold text-red-600">
+                    <span class="tracking-wider px-2 font-extrabold text-red-600 text-2xl">
                       {" "}
                       $240.00 USD{" "}
                     </span>

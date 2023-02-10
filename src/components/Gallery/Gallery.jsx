@@ -11,7 +11,7 @@ const Gallery = () => {
       <section>
         <div class="max-w-screen-2xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8  mt-10 font-rajdhani">
           <header class="text-center">
-            <h2 className="font-homemade_apple text-secoundary text-xl">
+            <h2 className="font-homemade_apple text-secoundary text-xl font-bold">
               gallery
             </h2>
             <h2 class="text-4xl font-extrabold text-[#FBECEB]">INSTAGRAM</h2>
